@@ -30,6 +30,8 @@
     <string name="recents_category_summary">修改后台</string>
     <string name="misc_category_title">杂项</string>
     <string name="misc_category_summary">其他选项</string>
+    <string name="about_category_title">关于</string>
+    <string name="about_category_summary">关于 ortus launcher</string>
     <string name="general_category_title">一般</string>
     <string name="interface_category_title">界面</string>
     <string name="quickspace_category_title">快捷空间</string>
@@ -138,6 +140,8 @@
     <!-- Memory info -->
     <string name="meminfo_text">%1$s 可用 | %2$s 总计</string>
     <string name="recents_meminfo_title">内存信息</string>
+    <string name="recents_meminfo_zram_title">ZRAM 信息</string>
+
     <!-- Background blur -->
     <string name="background_blur_title">背景模糊深度</string>
     <string name="background_blur_summary">为最近任务和应用抽屉设置模糊深度级别</string>
@@ -368,4 +372,59 @@
     <!-- Force monochrome icons -->
     <string name="force_monochrome_icons_title">强制主题化图标</string>
     <string name="force_monochrome_icons_summary">在应用程序不支持的情况下生成单色图标（需要重新启用主题化图标）</string>
+    
+<string name="app_info_title">应用信息</string>
+
+    <!-- Themed icons toggle -->
+    <string name="themed_icons_title">主题图标</string>
+    <string name="themed_icons_summary_on">主题图标已启用</string>
+    <string name="themed_icons_summary_off">主题图标已禁用</string>
+
+    <!-- UI switcher -->
+    <string name="ui_switcher_category_title">UI 切换</string>
+    <string name="ui_switcher_category_summary">在 UI 布局之间切换</string>
+    <string name="current_selection">当前已选择</string>
+    <string name="layout_switcher_title">列布局</string>
+    <string name="layout_switcher_summary">在 1 列和 2 列布局之间切换</string>
+    <string name="ui_layout_option_default">默认</string>
+    <string name="ui_layout_option_right_icon">右侧图标</string>
+    <string name="ui_layout_option_wallpaper_preview">壁纸预览</string>
+    <string name="ui_layout_option_small_icon">小图标</string>
+    <string name="ui_layout_option_left_icon">左侧图标</string>
+    <string name="ui_layout_option_rising">Rising</string>
+    <string-array name="ui_layout_options">
+        <item>@string/ui_layout_option_default</item>
+        <item>@string/ui_layout_option_right_icon</item>
+        <item>@string/ui_layout_option_wallpaper_preview</item>
+        <item>@string/ui_layout_option_small_icon</item>
+        <item>@string/ui_layout_option_left_icon</item>
+        <item>@string/ui_layout_option_rising</item>
+    </string-array>
+
+    <string-array name="ui_layout_keys">
+        <item>launcher_preferences</item>
+        <item>preference_card</item>
+        <item>preference_card_wallpaperview</item>
+        <item>preference_card_smallicon</item>
+        <item>preference_card_left</item>
+        <item>preference_card_rising</item>
+    </string-array>
+
+    <!-- About -->
+    <string name="about_launcher_version">3.0.0</string>
+    <string name="about_credits_title">基于以下贡献</string>
+    <string name="about_version_title">Ortus 版本</string>
+    <string name="about_version_developer">risingOS 团队</string>
+    
+    <!-- Widgets -->
+    <string name="widget_battery_title">电池小部件</string>
+    <string name="widget_photo_title">图库小部件</string>
+    <string name="widget_wifi_title">WiFi 小部件</string>
+    <string name="widget_data_title">数据小部件</string>
+    <string name="widget_bt_title">蓝牙小部件</string>
+    <string name="photo_widget_onboarding">单击添加新图片</string>
+
+    <!-- Background blur at app launch-->
+    <string name="pref_blur_background_at_app_launch_title">应用启动时背景模糊</string>
+    <string name="pref_blur_background_at_app_launch_summary">应用启动时背景模糊 (要求背景模糊深度大于 0)</string>
 </resources>
