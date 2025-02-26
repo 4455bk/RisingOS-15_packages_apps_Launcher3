@@ -209,7 +209,7 @@ public class OverviewActionsView<T extends OverlayUICallbacks> extends FrameLayo
         mSaveAppPairButton.setOnClickListener(this);
 
         View clearallButton = findViewById(R.id.action_clear_all);
-        View clearallButtonSpace = findViewById(R.id.clear_all_container);
+        View clearallButtonSpace = findViewById(R.id.action_clear_all_space);
         clearallButton.setOnClickListener(this);
         clearallButton.setVisibility(mClearAll ? VISIBLE : GONE);
         clearallButtonSpace.setVisibility(mClearAll ? VISIBLE : GONE);
